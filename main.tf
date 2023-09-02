@@ -7,7 +7,7 @@ resource "aws_instance" "web" {
   }
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "web-1" {
   ami           =  "ami-051f7e7f6c2f40dc1"   
   instance_type = "t2.micro"
 
