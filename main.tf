@@ -33,9 +33,9 @@ provider "aws" {
   secret_key = var.AWS_SECRET_ACCESS_KEY
 }
 
-variables "AWS_REGION" {}
+variable "AWS_REGION" {}
 
 
-variables "AWS_ACCESS_KEY_ID" {}
+variable "AWS_ACCESS_KEY_ID" {}
 
-variables "AWS_SECRET_ACCESS_KEY" {}
+variable "AWS_SECRET_ACCESS_KEY" {}
