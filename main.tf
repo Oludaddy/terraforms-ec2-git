@@ -34,7 +34,14 @@ resource "aws_instance" "web-4" {
   }
 }
 
+resource "aws_s3_bucket" "example" {
+  bucket = "automation-crazy-pipeline-777"
 
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
 
 
 
